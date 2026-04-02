@@ -10,6 +10,9 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack {
+            Text("Home View")
+                .font(.largeTitle)
+            
             Text("Screen 2!")
             Text("Screen 2!")
             Text("Screen 2!")
