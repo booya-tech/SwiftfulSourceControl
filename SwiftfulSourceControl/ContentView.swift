@@ -13,6 +13,14 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
+            
+            Image(systemName: "heart.fill")
+                .font(.largeTitle)
+                .foregroundStyle(.tint)
+            
+            Image(systemName: "heart.fill")
+                .font(.largeTitle)
+                .foregroundStyle(.tint)
         }
         .padding()
     }
