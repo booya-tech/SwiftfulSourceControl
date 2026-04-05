@@ -25,7 +25,6 @@ struct ContentView: View {
                 Image(systemName: "heart.fill")
                     .font(.largeTitle)
                     .foregroundStyle(.tint)
-                Text("New Title!")
                 ForEach (0..<20) { _ in
                     Text("YO!")
                 }
