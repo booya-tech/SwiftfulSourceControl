@@ -22,7 +22,7 @@ struct ContentView: View {
 
         ScrollView {
             VStack {
-                Image(systemName: "heart.fill")
+                Image(systemName: "globe")
                     .font(.largeTitle)
                     .foregroundStyle(.tint)
                 ForEach (0..<20) { _ in
