@@ -19,12 +19,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            ForEach (0..<20) { _ in
+        ScrollView {
+            VStack {
+                ForEach (0..<20) { _ in
                     Text("YO!")
+                }
             }
+            .padding()
         }
-        .padding()
     }
 }
 
