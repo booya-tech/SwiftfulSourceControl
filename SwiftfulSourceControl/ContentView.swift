@@ -20,12 +20,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "heart")
-                .font(.largeTitle)
-                .foregroundStyle(.tint)
-            Text("Swiftful Thinking!")
-            
-            Button("Subscribe now") {}
+            ForEach (0..<20) { _ in
+                    Text("YO!")
+            }
         }
         .padding()
     }
