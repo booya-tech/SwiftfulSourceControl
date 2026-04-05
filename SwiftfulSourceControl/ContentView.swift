@@ -28,6 +28,9 @@ struct ContentView: View {
                 ForEach (0..<20) { _ in
                     Text("YO!")
                 }
+                ForEach (0..<5) { _ in
+                    Text("YO!!!")
+                }
             }
             .padding()
         }
