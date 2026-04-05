@@ -20,6 +20,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image(systemName: "globe.fill")
+                .font(.largeTitle)
+                .foregroundStyle(.tint)
+            Text("New Title!")
             ForEach (0..<20) { _ in
                     Text("YO!")
             }
